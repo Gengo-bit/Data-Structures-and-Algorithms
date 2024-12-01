@@ -1,6 +1,6 @@
 /*================================================================================
 FILE        : main.c
-AUTHOR      : Paul Emmanuel G. Corsino
+AUTHOR      : Paul Emmanuel Corsino
 DESCRIPTION : a simple Stack Data Structure 
 DATE        : Dec 1 2024
 ================================================================================*/

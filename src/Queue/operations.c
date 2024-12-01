@@ -36,6 +36,21 @@
     }
 
     /*=======================================================================
+    DESCRIPTION: Function to decrement front
+    ========================================================================*/
+    int fixFront() {
+
+        if (front == -1 || front == 0) {                      // If default or front = 0, front is fine
+            printf("Front is fine\n");                        
+            return -1; 
+        } 
+        else {
+            printf("The previous front was %d, now decrementing...\n", front); 
+            return queue[front--];                              // Return the front value and increment front
+        }
+    }
+
+    /*=======================================================================
     DESCRIPTION: Function to display the queue
     ========================================================================*/
     void display() {

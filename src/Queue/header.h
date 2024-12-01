@@ -3,3 +3,4 @@
 void enqueue(int value);
 int dequeue();
 void display();
+int fixFront();
