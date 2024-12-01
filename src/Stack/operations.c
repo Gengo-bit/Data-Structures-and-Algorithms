@@ -39,8 +39,8 @@ DESCRIPTION: Function to display the stack
 ========================================================================*/
 void display() {
 
-    if (top == -1) { 
-        printf("Stack is empty\n");                     // Stack is empty if default
+    if (top == -1) {                                    // Stack is empty if default
+        printf("Stack is empty\n");                     
     } 
     else {
         printf("Stack elements are: "); 
