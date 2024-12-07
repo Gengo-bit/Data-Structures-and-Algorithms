@@ -7,7 +7,8 @@ struct Node {           // data = holds the address of the node, next = holds th
 };      
 
 struct Node* createNode(int data);
-void printList(struct Node* head);
-void insertEnd(struct Node** head, int data);
+void insertEnd(struct Node** tail, int data);
+void deleteEnd(struct Node** tail);
+void printList(struct Node* tail);
 
 #endif

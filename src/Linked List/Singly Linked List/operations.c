@@ -16,7 +16,7 @@ struct Node* createNode(int data) {
 /*=======================================================================
 DESCRIPTION: Function to insert a node at the end of the list
 ========================================================================*/
-void insertAtEnd(struct Node** head, int data) {                            // Node** = Pointer to a pointer
+void insertEnd(struct Node** head, int data) {                              // Node** = Pointer to a pointer
 
     struct Node* newNode = createNode(data);                                // Create a new node with the inputted data and store its address in newNode
 

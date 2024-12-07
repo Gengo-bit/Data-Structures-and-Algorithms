@@ -9,22 +9,22 @@ DATE        : Dec 7 2024
 #include "header.h"
 
 int main() {
-    struct Node* head = NULL; // Initialize the head of the list
 
-    // Perform operations
-    insertEnd(&head, 10);     // Insert 10
-    insertEnd(&head, 20);     // Insert 20
-    insertEnd(&head, 30);     // Insert 30
-    printList(head);            // Display list
+    struct Node* head = NULL;                                  // Initialize an empty list, point to the first node once nodes are inserted
 
-    deleteEnd(&head);         // Delete last node
-    printList(head);            // Display list after deletion
+    insertEnd(&head, 10);                                      // &head = Node** head, head = Node*
+    insertEnd(&head, 20);     
+    insertEnd(&head, 30);     
+    printList(head);           
 
-    deleteEnd(&head);         // Delete last node
-    printList(head);            // Display list after deletion
+    deleteEnd(&head);       
+    printList(head);       
 
-    deleteEnd(&head);         // Delete last node
-    printList(head);            // Display list after deletion
+    deleteEnd(&head);      
+    printList(head);          
+
+    deleteEnd(&head);      
+    printList(head);         
 
     return 0;
 }

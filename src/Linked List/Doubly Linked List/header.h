@@ -1,11 +1,10 @@
 #ifndef HEADER_H
 #define HEADER_H
 
-// Define the structure for a doubly linked list node
-struct Node {
-    int data;               // Data part of the node
-    struct Node* prev;      // Pointer to the previous node
-    struct Node* next;      // Pointer to the next node
+struct Node {               // data = holds the address of the node, next = holds the address of the next node
+    int data;               // 4 bytes, Singly Linked List:  [   data    ][next]   Doubly Linked List:    [prev][    data    ][next]     Circular Linked List: [lastNode][   data    ][next]
+    struct Node* prev;      // 8 bytes, Pointer to the prev node
+    struct Node* next;      // 8 bytes, Pointer to the next node
 };
 
 struct Node* createNode(int data);
