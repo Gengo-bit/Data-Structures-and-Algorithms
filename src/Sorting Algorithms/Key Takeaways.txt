@@ -1,0 +1,28 @@
+Key Takeaways
+
+1. Quick Sort
+
+- Relies on a pivot to divide the array.
+- Best for large, unsorted datasets.
+- Not stable because swapping may change relative positions.
+
+2. Merge Sort
+
+- Recursively divides the array into subarrays.
+- Combines subarrays into a sorted array.
+- Stable and efficient but uses extra space.
+
+3. Insertion Sort
+
+- Inserts each element into its correct position within the sorted portion.
+- Simple, and fast for small or nearly sorted datasets.
+
+4. Bubble Sort
+
+- Repeatedly swaps adjacent elements if they are out of order.
+- Very inefficient for large datasets.
+
+5. Selection Sort
+
+- Selects the smallest element in each pass and swaps it.
+- Easy to implement but inefficient due to unnecessary comparisons.
