@@ -1,6 +1,6 @@
 # **Data Structures and Algorithms in C**
 
-A collection of my C implementations of fundamental data structures and algorithms. This repository is part of my journey to practice and master essential programming concepts while preparing for my [Data Structures and Algorithms Interview Questions certificate](https://olympus.mygreatlearning.com/courses/56233).
+A collection of my C implementations of fundamental data structures and algorithms. This repository is part of my journey to practice and master essential programming concepts while preparing for my [Data Structures and Algorithms Interview Questions certificate](https://www.mygreatlearning.com/certificate/JMEBSLVB).
 
 ---
 
