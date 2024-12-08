@@ -5,7 +5,7 @@
 DESCRIPTION: Function to perform insertion sort
 ========================================================================*/
 void insertionSort(int arr[], int size) {
-
+                                                                            // Insert element into its correct position in the sorted portion
     for (int i = 1; i < size; i++) {                                        // Start from the second element
         int key = arr[i];                                                   // The element to be inserted
         int j = i - 1;                                                      // Compare with elements in the sorted part
