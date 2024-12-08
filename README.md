@@ -48,7 +48,7 @@ cd Data-Structures-and-Algorithms
 - Compile any program using GCC or any C compiler.  
 Example:
 ```bash
-gcc main.c operations -o stack
+gcc main.c operations.c -o stack
 ./stack
 ```
 - Follow the on-screen instructions for testing.
