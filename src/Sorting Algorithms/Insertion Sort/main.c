@@ -1,24 +1,23 @@
 /*================================================================================
 FILE        : main.c
 AUTHOR      : Paul Emmanuel Corsino
-DESCRIPTION : a simple Quick Sort Algorithm
-DATE        : Dec 7 2024
+DESCRIPTION : a simple Insertion Sort Algorithm
+DATE        : Dec 8 2024
 ================================================================================*/
 #include <stdio.h>
-#include <stdlib.h>
 #include "header.h"
 
 int main() {
-    
-    int arr[] = {34, 7, 23, 32, 5, 62, 32, 12};
+
+    int arr[] = {12, 11, 13, 5, 6};
     int size = sizeof(arr) / sizeof(arr[0]);
 
-    printf("Original array: \n");
+    printf("Original array: ");
     printArray(arr, size);
 
-    quickSort(arr, 0, size - 1);                                                    // Choose where to start or end
+    insertionSort(arr, size);
 
-    printf("Sorted array: \n");
+    printf("Sorted array: ");
     printArray(arr, size);
 
     return 0;

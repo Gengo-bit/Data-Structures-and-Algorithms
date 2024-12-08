@@ -2,7 +2,7 @@
 FILE        : main.c
 AUTHOR      : Paul Emmanuel Corsino
 DESCRIPTION : a simple Binary Searching Algorithm
-DATE        : Dec 1 2024
+DATE        : Dec 7 2024
 ================================================================================*/
 #include <stdio.h>
 #include "header.h"
